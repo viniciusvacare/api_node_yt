@@ -1,0 +1,8 @@
+Anotacoes sobre o curso de API rest com Node do Youtube
+https://www.youtube.com/playlist?list=PL29TaWXah3iaaXDFPgTHiFMBF6wQahurP
+
+estrutura de arquivos
+src
+- server
+- - Server.ts
+- index.ts

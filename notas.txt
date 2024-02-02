@@ -6,3 +6,6 @@ src
 - server
 - - Server.ts
 - index.ts
+
+npx eslint --init
+npx ts-node .\src\index.ts

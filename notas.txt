@@ -9,3 +9,8 @@ src
 
 npx eslint --init
 npx ts-node .\src\index.ts
+
+routes -. arquivo de rotas(serve para controlar as rotas da aplicacao)
+middleware > facilita a comunicação e integração entre diferentes aplicativos, sistemas ou componentes, proporcionando uma camada de abstração e serviços comuns
+
+Express.js é um framework para construir aplicativos web em Node.js, simplificando rotas, middleware, manipulação de solicitações/respostas e integração com template engines. Usa conceitos como rotas, middleware, gerenciamento de solicitações/respostas e roteadores para facilitar o desenvolvimento de aplicações web eficientes em Node.js.

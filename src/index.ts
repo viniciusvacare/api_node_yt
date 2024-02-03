@@ -1,7 +1,9 @@
 import { server } from "./server/Server";
 
-const port = 8080;
+const PORT:number = 8080;
 
-server.listen(port, () => {
+server.listen(PORT, () => {
   console.log(`On fire 🔥... http://localhost:8080`);
 });
+
+server.on('error', e => console.error("Error", e));

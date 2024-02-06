@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/teste/:id", (req, res) => {
-  console.log(req.body); // req.body > array de items do json
+  console.log(req.body); // req.body > array de i tems do json
   console.log(req.params.id); // parametros do endpoint
 
   //res.statusCode = 404;
